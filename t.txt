@@ -1,0 +1,11 @@
+git add <> //staged file, ready to be committed
+git commit -m "<m>" //unmodified, already commit
+git add -A //add them all to container
+*.txt //all txt
+git status //checking in4
+git log //who has changed file, history
+
+git commit -a -m "<m>" //Commit the updated files directly, skipping the staging environment:
+
+
+git status -help
