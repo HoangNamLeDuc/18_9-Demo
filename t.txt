@@ -1,5 +1,5 @@
 git add <> //staged file, ready to be committed
-git commit -m "<m>" //unmodified, already commit
+git commit -m "<m>" //unmodified, already commit, with version name set by u
 git add -A //add them all to container
 *.txt //all txt
 git status //checking in4
@@ -8,4 +8,5 @@ git log //who has changed file, history
 git commit -a -m "<m>" //Commit the updated files directly, skipping the staging environment:
 
 
-git status -help
+git status -help //Show the possible options for the status command in command line:
+git help --all //show all git command
